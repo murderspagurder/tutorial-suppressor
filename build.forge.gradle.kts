@@ -108,6 +108,7 @@ publishMods {
     curseforge {
         projectId = property("publish.curseforge") as String
         accessToken = env.CURSEFORGE_API_KEY.orNull()
+        clientRequired = true
         minecraftVersions.add(stonecutter.current.version)
         minecraftVersions.addAll(additionalVersions)
     }
