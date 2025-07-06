@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "tutorialsuppressor",
+  "name": "Tutorial Suppressor",
+  "version": "${version}",
+  "authors": ["murder_spagurder"],
+  "contact": {
+    "sources": "https://github.com/murderspagurder/tutorial-suppressor",
+    "issues": "https://github.com/murderspagurder/tutorial-suppressor/issues"
+  },
+  "description": "Suppress Tutorial Toast Messages",
+  "icon": "assets/icon.png",
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "dev.spagurder.tutorialsuppressor.fabric.FabricEntrypoint"
+    ]
+  },
+  "mixins": [
+  ],
+  "depends": {
+  }
+}

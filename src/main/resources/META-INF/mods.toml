@@ -1,0 +1,26 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "MIT"
+
+[[mods]]
+modId = "tutorialsuppressor"
+displayName = "Tutorial Suppressor"
+version = "${version}"
+displayURL = ""
+logoFile = "assets/icon.png"
+authors = "murder_spagurder"
+description = '''Suppress Tutorial Toast Messages'''
+
+[[dependencies.tutorialsuppressor]]
+modId = "forge"
+type = "required"
+mandatory = true
+versionRange = "[1,)"
+ordering = "NONE"
+side = "CLIENT"
+
+[[dependencies.tutorialsuppressor]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20,)"
+type = "required"
